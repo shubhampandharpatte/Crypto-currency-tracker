@@ -1,0 +1,40 @@
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    opacity: 0.7;
+    width: 100%;
+    background-color: #232f3e; /* Darker background for contrast */
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 1rem; /* Slightly smaller font for a sleeker look */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.footer .link {
+    color: #3EDBF0;
+    text-decoration: none; /* Remove underline for a cleaner look */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer .link:hover {
+    color: #2baabf; /* Slightly darker color on hover */
+}
+
+.footer .fa-github {
+    margin-top: 8px; /* Less margin for a tighter layout */
+    font-size: 1.5rem; /* Increase icon size */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.footer .fa-github:hover {
+    transform: scale(1.2); /* Scale up on hover */
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Space between social icons */
+    margin-top: 8px;
+}
